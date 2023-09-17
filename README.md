@@ -9,7 +9,7 @@ A flutter_rdkafka_lib plugin project.
 * 이전부터 관심을 갖고 있었고 사용했었던 Kakfa를 대상으로 함. (현업에서 이용하려고 Confluent 한국지사에도 연락했었는데...)
 
 
-* pub.dev에 있는 headone님의 플러그인 프로젝트(https://github.com/headone/fkafka)를 보고 동기부여를 받아서 참고 
+* pub.dev에 있는 headone님의 플러그인 프로젝트(https://github.com/headone/fkafka) 를 보고 동기부여를 받아서 참고 
 
 
 * rdkafka를 이용하여 미구현된 producer/consumer client api를 작성, 내가 더 필요로 하는 부분에 구현 
@@ -34,12 +34,12 @@ A flutter_rdkafka_lib plugin project.
 
 * rdkafka api: https://docs.confluent.io/platform/current/clients/librdkafka/html/rdkafka_8h.html#a3d949238471993b18537855aad28fa23 
 
-
+* 현재 원 저자의 기본 디렉토리 구조와 파일명칭은 그대로 유지하고 다만 rdkafka 라이브러리를 각 플랫폼별로 cmake로 설치하는 부분을 검토하자.
+ 
 ## 이전 작업일지
 
 ### 2023.07.10
-  kafka와 flutter 앱 연동 작업 테스트
-  => https://github.com/headone/fkafka/tree/master/lib/src/rdkafka
+* kafka와 flutter 앱 연동 작업 테스트
 
 * API
   https://docs.confluent.io/platform/current/clients/librdkafka/html/rdkafka_8h.html#a3d949238471993b18537855aad28fa23

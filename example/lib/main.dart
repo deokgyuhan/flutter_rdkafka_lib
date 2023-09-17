@@ -21,8 +21,8 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    sumResult = flutter_rdkafka_lib.sum(1, 2);
-    sumAsyncResult = flutter_rdkafka_lib.sumAsync(3, 4);
+    // sumResult = flutter_rdkafka_lib.sum(1, 2);
+    // sumAsyncResult = flutter_rdkafka_lib.sumAsync(3, 4);
   }
 
   @override

@@ -1,4 +1,9 @@
+export 'src/fkafka.dart';
+export 'src/rdkafka/bridges.dart';
+export 'src/loader.dart';
 
+
+//
 import 'dart:async';
 import 'dart:ffi';
 import 'dart:io';
